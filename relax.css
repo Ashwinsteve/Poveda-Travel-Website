@@ -1,0 +1,556 @@
+html, body{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* navigation bar styling */
+
+.nav{
+    background-color: rgb(72, 83, 66);
+    color: aliceblue;
+    position: fixed;
+    text-transform: uppercase;
+    width: 100%;
+    z-index: 2;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25);
+}
+
+.nav ul{
+    margin: 0;
+}
+
+.nav ul li{
+    display: inline-block;
+    padding: 15px 50px 25px 0;
+    position: relative; 
+}
+
+.logo{
+    font-family: "Tinos", serif;
+    font-size: 32px;
+    font-weight: 900;
+}
+
+.first{
+    margin-left: 570px;
+}
+
+.nav ul li:not(.logo){
+    font-family: Cambria, Georgia, serif;
+    font-size: 15px;
+}
+
+.dropdown{
+    cursor: pointer;
+}
+
+.nav ul li .logo:hover,
+.nav ul li .first:hover,
+.nav ul li .dropdown:hover,
+.nav ul li:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.dropdown-menu{
+    display: none;
+    position: absolute;
+    top: 45px;
+    background-color:rgb(72, 83, 66);
+    list-style: none;
+    padding: 3px; 
+    width: 120px;
+}
+
+.dropdown-menu li a{
+    display: block;
+    padding: 5px 5px;
+    color: white;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+
+.dropdown-menu li a:hover{
+    text-decoration: underline;
+}
+
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+
+/* relax page 1 */
+
+.relax-pg1{
+    position: relative;
+    height: 580px;
+    width: 100%;
+    background-image: url("https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1920,fit=crop/poveda6u7yb/relax_bali-mjEW344MGrFOGoVx.png");
+    background-size: contain;
+    background-size: 1400px 700px;
+    background-repeat: no-repeat;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+.relax-pg1 .head1{
+    margin: 0px;
+    position: absolute;
+    top: 300px;
+    left: 150px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+.relax-pg1 .head2{
+    margin: 0px;
+    position: absolute;
+    top: 380px;
+    left: 150px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 115px;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+/* relax pg2 styling */
+
+.relax-pg2{
+    position: relative;
+    height: 400px;
+    width: 100%;
+    background-color:  hsl(135, 6%, 74%);
+}
+
+.relax-pg2 .head1{
+    position: absolute;
+    color:  rgb(72, 83, 66);
+    top: 80px;
+    text-align: center;
+    left: 10px;
+    right: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+
+.relax-pg2 .para1{
+    position: absolute;
+    top: 200px;
+    text-align: center;
+    left: 300px;
+    right: 300px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+    color:  rgb(72, 83, 66);
+    line-height: 25px;
+}
+
+/* relax pg3 styling */
+
+.relax-pg3{
+    position: relative;
+    height: 500px;
+    width: 100%;
+    background-color: rgb(72, 83, 66);
+}
+
+.relax-pg3 .img-pg3{
+    position: absolute;
+    height: 100%;
+    left: 90px;
+    width: 550px;
+}
+
+.relax-pg3 .head{
+    position: absolute;
+    color: white;
+    top: 100px;
+    left: 750px;
+    right: 200px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+
+.relax-pg3 .p1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: absolute;
+    font-size: 13.5px;
+    top: 250px;
+    left: 750px;
+    color: white;
+    right: 150px;
+    line-height: 25px;
+}
+
+/* culture page 4 styling */
+
+.relax-pg4{
+    position: relative;
+    height: 500px;
+    width: 100%;
+    background-color: rgba(219, 226, 221);
+}
+
+.relax-pg4 .img1{
+    height: 100%;
+    width: 550px;
+    position: absolute;
+    right: 75px;
+}
+
+.relax-pg4 .h2{
+    position: absolute;
+    top: 100px;
+    left: 120px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    color: rgb(72, 83, 66);
+}
+
+.relax-pg4 .h3{
+    position: absolute;
+    top: 150px;
+    left: 120px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    color: rgb(72, 83, 66);
+}
+
+.relax-pg4 .para1{
+    position: absolute;
+    top: 250px;
+    left: 120px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 13.5px;
+    right: 800px;
+    color: rgb(72, 83, 66);
+    line-height: 25px;
+}
+/* relax pg5 styling */
+
+.relax-pg5{
+    position: relative;
+    height: 500px;
+    width: 100%;
+    background-color: rgba(199, 206, 201);
+}
+
+.relax-pg5 .img-pg3{
+    position: absolute;
+    height: 100%;
+    left: 90px;
+    width: 550px;
+}
+
+.relax-pg5 .head{
+    position: absolute;
+    color: rgb(72, 83, 66);
+    top: 100px;
+    left: 750px;
+    right: 400px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+
+.relax-pg5 .p1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: absolute;
+    font-size: 13.5px;
+    top: 250px;
+    left: 750px;
+    color: rgb(72, 83, 66);
+    right: 150px;
+    line-height: 25px;
+}
+
+/* relax pg6 styling */
+
+.relax-pg6{
+    position: relative;
+    height: 340px;
+    width: 100%;
+    background-color: rgb(72, 83, 66);
+}
+
+
+.relax-pg6 .h2{
+    position: absolute;
+    top: 50px;
+    left: 120px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    color: white;
+}
+
+
+.relax-pg6 .para1{
+    position: absolute;
+    top: 150px;
+    left: 120px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 13px;
+    right: 700px;
+    color: white;
+    line-height: 25px;
+    text-align: left;
+}
+
+.relax-pg6 .b1
+{
+    position: relative;
+    height: 40px;
+    width: 180px;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    font-size: 14px;
+    text-transform: uppercase;
+    border-radius: 30px;
+    word-spacing: 9px;
+    letter-spacing: 2px;
+    top: 270px;
+    left: 120px;
+}
+
+.relax-pg6 .b1:hover{
+    cursor: pointer;
+    filter: brightness(20%);
+}
+
+.relax-pg6 .right1{
+    position: absolute;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    top: 150px;
+    color: white;
+    left: 850px;
+    text-transform: uppercase;
+}
+
+.relax-pg6 .price{
+    position: absolute;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 90px;
+    top: 50px;
+    color: white;
+    left: 959px;
+    text-transform: uppercase;
+}
+
+/* relax page 7 styling */
+.relax-pg7{
+    position: relative;
+    height: 600px;
+    width: 100%;
+    background-color: rgb(47, 58, 41);
+}
+
+.relax-pg7 .h1{
+    position: absolute;
+    top: 50px;
+    left: 120px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    color: white;
+}
+
+.relax-pg7 .para1{
+    position: absolute;
+    top: 150px;
+    left: 120px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 13px;
+    right: 700px;
+    color: white;
+    line-height: 25px;
+    text-align: left;
+}
+
+.relax-pg7 [for="name"]{
+    position: absolute;
+    text-transform: capitalize;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    top: 100px;
+    color: white;
+    left: 700px;
+}
+
+.relax-pg7 #name{
+    position: absolute;
+    height: 35px;
+    width: 500px;
+    top: 130px;
+    left: 700px;
+     background-color: hsl(135, 6%, 74%);
+}
+
+.relax-pg7 [for="last_name"]{
+    position: absolute;
+    text-transform: capitalize;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    top: 180px;
+    color: white;
+    left: 700px;
+}
+
+.relax-pg7 #last_name{
+    position: absolute;
+    height: 35px;
+    width: 500px;
+    top: 210px;
+    left: 700px;
+    background-color: hsl(135, 6%, 74%);
+}
+
+.relax-pg7 [for="email"]{
+    position: absolute;
+    text-transform: capitalize;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    top: 260px;
+    color: white;
+    left: 700px;
+}
+
+.relax-pg7 #email{
+    position: absolute;
+    height: 35px;
+    width: 500px;
+    top: 290px;
+    left: 700px;
+    background-color: hsl(135, 6%, 74%);
+}
+
+.relax-pg7 [for="text"]{
+    position: absolute;
+    text-transform: capitalize;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    top: 340px;
+    color: white;
+    left: 700px;
+}
+
+.relax-pg7 #text{
+    position: absolute;
+    height: 110px;
+    width: 500px;
+    top: 370px;
+    left: 700px;
+    background-color: hsl(135, 6%, 74%);
+}
+
+.relax-pg7 #name:hover,
+.relax-pg7 #last_name:hover,
+.relax-pg7 #email:hover,
+.relax-pg7 #text:hover{
+    background-color: aliceblue;
+}
+
+.relax-pg7 .b1
+{
+    position: relative;
+    height: 40px;
+    width: 180px;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    font-size: 14px;
+    text-transform: uppercase;
+    border-radius: 30px;
+    word-spacing: 9px;
+    letter-spacing: 2px;
+    top: 540px;
+    left: 700px;
+}
+
+.relax-pg7 .b1:hover{
+    cursor: pointer;
+    filter: brightness(20%);
+}
+
+/* relax page 8 styling */
+
+.relax-pg8{
+    position: relative;
+    height: 300px;
+    width: 100%;
+    background-color:rgb(219, 226, 221);
+}
+
+.relax-pg8 .logo{
+    position: absolute;
+    color: rgb(72, 83, 66);
+    top: 80px;
+    left: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+    text-transform: uppercase;
+}
+
+.relax-pg8 ul{
+    position: absolute;
+    list-style: none;
+    color: rgb(72, 83, 66);
+    top: 90px;
+    left: 700px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+}
+
+.relax-pg8 li{
+    margin-bottom: 25px;
+}
+
+.relax-pg8 li:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.relax-pg8 .mail{
+    position: absolute;
+    left: 1000px;
+    top: 120px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 14px;
+    color: rgb(72, 83, 66);
+    
+}
+
+.relax-pg8 .mobile{
+    position: absolute;
+    left: 1000px;
+    top: 160px;
+    font-size: 14px;
+    color: rgb(72, 83, 66);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.relax-pg8 .insta{
+    position: absolute;
+    height: 23px;
+    width: 23px;
+    top: 210px;
+    left: 1080px;
+}
+.relax-pg8 .whatsapp{
+    position: absolute;
+    height: 18px;
+    width: 18px;
+    top: 212px;
+    left: 1040px;
+}
+.relax-pg8 .twitter{
+    position: absolute;
+    height: 23.5px;
+    width: 23.5px;
+    top: 210px;
+    left: 1000px;
+}
+
+.relax-pg8 .insta:hover,
+.relax-pg8 .whatsapp:hover,
+.relax-pg8 .twitter:hover{
+    cursor: pointer;
+    filter: brightness(50%);
+}

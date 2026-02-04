@@ -1,0 +1,430 @@
+html, body{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* navigation bar styling */
+
+.nav{
+    background-color: rgb(72, 83, 66);
+    color: aliceblue;
+    position: fixed;
+    text-transform: uppercase;
+    width: 100%;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25);
+    z-index: 2;
+}
+
+.nav ul{
+    margin: 0;
+}
+
+.nav ul li{
+    display: inline-block;
+    padding: 15px 50px 25px 0;
+    position: relative; 
+}
+
+.logo{
+    font-family: "Tinos", serif;
+    font-size: 32px;
+    font-weight: 900;
+}
+
+.first{
+    margin-left: 570px;
+}
+
+.nav ul li:not(.logo){
+    font-family: Cambria, Georgia, serif;
+    font-size: 15px;
+}
+
+.dropdown{
+    cursor: pointer;
+}
+
+.nav ul li .logo:hover,
+.nav ul li .first:hover,
+.nav ul li .dropdown:hover,
+.nav ul li:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.dropdown-menu{
+    display: none;
+    position: absolute;
+    top: 45px;
+    background-color:rgb(72, 83, 66);
+    list-style: none;
+    padding: 3px; 
+    width: 120px;
+}
+
+.dropdown-menu li a{
+    display: block;
+    padding: 5px 5px;
+    color: white;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+
+.dropdown-menu li a:hover{
+    text-decoration: underline;
+}
+
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+
+.nav ul .logo a,
+.nav ul .first a,
+.nav ul a{
+    color: white;
+    text-decoration: none;
+}
+
+/* contactus page 1 */
+
+.contactus-pg1{
+    position: relative;
+    height: 580px;
+    width: 100%;
+    background-image: url("https://wallpapershome.com/images/pages/pic_h/19901.jpg");
+    background-size: contain;
+    background-size: 1400px 700px;
+    background-repeat: no-repeat;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+.contactus-pg1 .head1{
+    margin: 0px;
+    position: absolute;
+    top: 300px;
+    left: 150px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+.contactus-pg1 .head2{
+    margin: 0px;
+    position: absolute;
+    top: 380px;
+    left: 150px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 115px;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+/* contactus pg2 styling */
+
+.contactus-pg2{
+    position: relative;
+    height: 400px;
+    width: 100%;
+    background-color:  hsl(135, 6%, 74%);
+}
+
+.contactus-pg2 .head1{
+    position: absolute;
+    color:  rgb(72, 83, 66);
+    top: 80px;
+    text-align: center;
+    left: 10px;
+    right: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+
+.contactus-pg2 .para1{
+    position: absolute;
+    top: 200px;
+    text-align: center;
+    left: 300px;
+    right: 300px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+    color:  rgb(72, 83, 66);
+    line-height: 25px;
+}
+
+
+/* contactus page 3 styling */
+
+.contactus-pg3{
+    position: relative;
+    height: 800px;
+    width: 100%;
+    background-color:rgb(219, 226, 221);
+}
+
+.contactus-pg3 .head1{
+    position: absolute;
+    color: rgb(72, 83, 66);
+    top: 80px;
+    left: 350px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+
+.contactus-pg3 .img1,.contactus-pg3 .img2,.contactus-pg3 .img3{
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    top: 280px;
+}
+
+.contactus-pg3 .img1{
+    left: 90px;
+}
+.contactus-pg3 .img2{
+    left: 500px;
+}
+.contactus-pg3 .img3{
+    left: 910px;
+}
+
+.contactus-pg3 .b1
+{
+    position: relative;
+    height: 40px;
+    width: 180px;
+    background-color: transparent;
+    border: 2px solid rgb(72, 83, 66);
+    color: rgb(72, 83, 66);
+    font-size: 14px;
+    text-transform: uppercase;
+    border-radius: 30px;
+    word-spacing: 9px;
+    letter-spacing: 2px;
+    top: 700px;
+    left: 550px;
+}
+
+.contactus-pg3 .b1:hover{
+    cursor: pointer;
+    filter: brightness(20%);
+}
+
+/* contactus page 4 styling */
+.contactus-pg4{
+    position: relative;
+    height: 600px;
+    width: 100%;
+    background-color: rgb(47, 58, 41);
+}
+
+.contactus-pg4 .h1{
+    position: absolute;
+    top: 50px;
+    left: 120px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    color: white;
+}
+
+.contactus-pg4 .para1{
+    position: absolute;
+    top: 150px;
+    left: 120px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 13px;
+    right: 700px;
+    color: white;
+    line-height: 25px;
+    text-align: left;
+}
+
+.contactus-pg4 [for="name"]{
+    position: absolute;
+    text-transform: capitalize;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    top: 100px;
+    color: white;
+    left: 700px;
+}
+
+.contactus-pg4 #name{
+    position: absolute;
+    height: 35px;
+    width: 500px;
+    top: 130px;
+    left: 700px;
+     background-color: hsl(135, 6%, 74%);
+}
+
+.contactus-pg4 [for="last_name"]{
+    position: absolute;
+    text-transform: capitalize;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    top: 180px;
+    color: white;
+    left: 700px;
+}
+
+.contactus-pg4 #last_name{
+    position: absolute;
+    height: 35px;
+    width: 500px;
+    top: 210px;
+    left: 700px;
+    background-color: hsl(135, 6%, 74%);
+}
+
+.contactus-pg4 [for="email"]{
+    position: absolute;
+    text-transform: capitalize;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    top: 260px;
+    color: white;
+    left: 700px;
+}
+
+.contactus-pg4 #email{
+    position: absolute;
+    height: 35px;
+    width: 500px;
+    top: 290px;
+    left: 700px;
+    background-color: hsl(135, 6%, 74%);
+}
+
+.contactus-pg4 [for="text"]{
+    position: absolute;
+    text-transform: capitalize;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    top: 340px;
+    color: white;
+    left: 700px;
+}
+
+.contactus-pg4 #text{
+    position: absolute;
+    height: 110px;
+    width: 500px;
+    top: 370px;
+    left: 700px;
+    background-color: hsl(135, 6%, 74%);
+}
+
+.contactus-pg4 #name:hover,
+.contactus-pg4 #last_name:hover,
+.contactus-pg4 #email:hover,
+.contactus-pg4 #text:hover{
+    background-color: aliceblue;
+}
+
+.contactus-pg4 .b1
+{
+    position: relative;
+    height: 40px;
+    width: 180px;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    font-size: 14px;
+    text-transform: uppercase;
+    border-radius: 30px;
+    word-spacing: 9px;
+    letter-spacing: 2px;
+    top: 540px;
+    left: 700px;
+}
+
+.contactus-pg4 .b1:hover{
+    cursor: pointer;
+    filter: brightness(20%);
+}
+
+/* contactus page 5 styling */
+
+.contactus-pg5{
+    position: relative;
+    height: 300px;
+    width: 100%;
+    background-color:rgb(219, 226, 221);
+}
+
+ .contactus-pg5 .logo{
+    position: absolute;
+    color: rgb(72, 83, 66);
+    top: 80px;
+    left: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+    text-transform: uppercase;
+}
+
+.contactus-pg5 ul{
+    position: absolute;
+    list-style: none;
+    color: rgb(72, 83, 66);
+    top: 90px;
+    left: 700px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+}
+
+.contactus-pg5 li{
+    margin-bottom: 25px;
+}
+
+.contactus-pg5 li:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.contactus-pg5 .mail{
+    position: absolute;
+    left: 1000px;
+    top: 120px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 14px;
+    color: rgb(72, 83, 66);
+    
+}
+
+.contactus-pg5 .mobile{
+    position: absolute;
+    left: 1000px;
+    top: 160px;
+    font-size: 14px;
+    color: rgb(72, 83, 66);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.contactus-pg5 .insta{
+    position: absolute;
+    height: 23px;
+    width: 23px;
+    top: 210px;
+    left: 1080px;
+}
+.contactus-pg5 .whatsapp{
+    position: absolute;
+    height: 18px;
+    width: 18px;
+    top: 212px;
+    left: 1040px;
+}
+.contactus-pg5 .twitter{
+    position: absolute;
+    height: 23.5px;
+    width: 23.5px;
+    top: 210px;
+    left: 1000px;
+}
+
+.contactus-pg5 .insta:hover,
+.contactus-pg5 .whatsapp:hover,
+.contactus-pg5 .twitter:hover{
+    cursor: pointer;
+    filter: brightness(50%);
+    
+}

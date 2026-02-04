@@ -1,0 +1,640 @@
+html, body{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* navigation bar styling */
+
+.nav{
+    background-color: rgb(72, 83, 66);
+    color: aliceblue;
+    position: fixed;
+    text-transform: uppercase;
+    width: 100%;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25);
+    z-index: 2;
+}
+
+.nav ul{
+    margin: 0;
+}
+
+.nav ul li{
+    display: inline-block;
+    padding: 15px 50px 25px 0;
+    position: relative; 
+}
+
+.logo{
+    font-family: "Tinos", serif;
+    font-size: 32px;
+    font-weight: 900;
+}
+
+.first{
+    margin-left: 570px;
+}
+
+.nav ul li:not(.logo){
+    font-family: Cambria, Georgia, serif;
+    font-size: 15px;
+}
+
+.dropdown{
+    cursor: pointer;
+}
+
+.nav ul li .logo:hover,
+.nav ul li .first:hover,
+.nav ul li .dropdown:hover,
+.nav ul li:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.dropdown-menu{
+    display: none;
+    position: absolute;
+    top: 45px;
+    background-color:rgb(72, 83, 66);
+    list-style: none;
+    padding: 3px; 
+    width: 120px;
+}
+
+.dropdown-menu li a{
+    display: block;
+    padding: 5px 5px;
+    color: white;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+
+.dropdown-menu li a:hover{
+    text-decoration: underline;
+}
+
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+
+.nav ul .logo a,
+.nav ul .first a,
+.nav ul a{
+    color: white;
+    text-decoration: none;
+}
+
+/* main page 1 */
+
+.main-pg1{
+    position: relative;
+    height: 680px;
+    width: 100%;
+    background-image: url("https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1920,fit=crop/poveda6u7yb/front-m7VoJwB28ZFLB9VQ.png");
+    background-size: 1400px 800px;
+    background-repeat: no-repeat;
+    margin-top: 0px;
+}
+
+.main-pg1 .head1{
+    margin: 0px;
+    position: absolute;
+    top: 200px;
+    left: 150px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.main-pg1 .head2{
+    margin: 0px;
+    position: absolute;
+    top: 280px;
+    left: 150px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 95px;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.main-pg1 .para1{
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    top: 400px;
+    right: 550px;
+    left: 150px;
+    line-height: 30px;
+}
+
+.main-pg1 button{
+    position: relative;
+    top: 550px;
+    left: 150px;
+    height: 40px;
+    width: 180px;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    font-size: 14px;
+    text-transform: uppercase;
+    border-radius: 30px;
+    word-spacing: 9px;
+    letter-spacing: 2px;
+}
+
+.main-pg1 button:hover{
+    background-color: azure;
+    color: black;
+    cursor: pointer;
+}
+
+/* main page 2 styling */
+
+.main-pg2{
+    position: relative;
+    height: 780px;
+    width: 100%;
+    background-color: hsl(135, 6%, 74%);
+}
+
+.main-pg2 .head1{
+    position: absolute;
+    top: 90px;
+    left: 430px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    color: rgb(72, 83, 66);
+}
+
+.main-pg2 .img1,.main-pg2 .img2,.main-pg2 .img3{
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    top: 280px;
+}
+
+.main-pg2 .img1{
+    left: 90px;
+}
+.main-pg2 .img2{
+    left: 500px;
+}
+.main-pg2 .img3{
+    left: 910px;
+}
+
+.main-pg2 .des1{
+    position: absolute;
+    top: 600px;
+    left: 150px;
+    font-size: 23px;
+    color: rgb(72, 83, 66);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.main-pg2 .des2{
+    position: absolute;
+    top: 600px;
+    left: 590px;
+    font-size: 23px;
+    color: rgb(72, 83, 66);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.main-pg2 .des3{
+    position: absolute;
+    top: 600px;
+    left:990px;
+    font-size: 23px;
+    color: rgb(72, 83, 66);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.main-pg2 .b1,
+.main-pg2 .b2,
+.main-pg2 .b3{
+    position: relative;
+    height: 40px;
+    width: 180px;
+    background-color: transparent;
+    border: 2px solid rgb(72, 83, 66);;
+    color: rgb(72, 83, 66);;
+    font-size: 14px;
+    text-transform: uppercase;
+    border-radius: 30px;
+    word-spacing: 9px;
+    letter-spacing: 2px;
+    top: 680px;
+}
+
+.main-pg2 .b1{
+    left: 120px;
+}
+.main-pg2 .b2{
+    left: 340px;
+    width: 230px;
+}
+.main-pg2 .b3{
+    left: 550px;
+}
+
+.main-pg2 .b1:hover,
+.main-pg2 .b2:hover,
+.main-pg2 .b3:hover{
+    cursor: pointer;
+    filter: brightness(20%);
+}
+
+/* main page 3 styling */
+
+.main-pg3{
+    position: relative;
+    height: 600px;
+    width: 100%;
+    background-color:rgb(219, 226, 221);
+}
+
+.main-pg3 .img-pg3{
+    position: absolute;
+    height: 100%;
+    left: 90px;
+    width: 550px;
+}
+
+.main-pg3 .head{
+    position: absolute;
+    color: rgb(72, 83, 66);
+    top: 150px;
+    left: 750px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+
+.main-pg3 .p1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: absolute;
+    font-size: 15px;
+    top: 250px;
+    left: 750px;
+    color: rgb(72, 83, 66);
+    right: 90px;
+    line-height: 25px;
+}
+
+.main-pg3 .p2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: absolute;
+    font-size: 15px;
+    top: 380px;
+    left: 750px;
+    color: rgb(72, 83, 66);
+    right: 90px;
+    line-height: 25px;
+}
+
+.main-pg3 .b1
+{
+    position: relative;
+    height: 40px;
+    width: 180px;
+    background-color: transparent;
+    border: 2px solid rgb(72, 83, 66);;
+    color: rgb(72, 83, 66);;
+    font-size: 14px;
+    text-transform: uppercase;
+    border-radius: 30px;
+    word-spacing: 9px;
+    letter-spacing: 2px;
+    top: 530px;
+    left: 750px;
+}
+
+.main-pg3 .b1:hover{
+    cursor: pointer;
+    filter: brightness(20%);
+}
+
+/* main page 4 styling */
+
+.main-pg4{
+    position: relative;
+    height: 600px;
+    width: 100%;
+    background-color: rgb(72, 83, 66);
+}
+
+.main-pg4 .img1{
+    height: 100%;
+    width: 550px;
+    position: absolute;
+    right: 75px;
+}
+
+.main-pg4 .h2{
+    position: absolute;
+    top: 100px;
+    left: 120px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    color: white;
+}
+
+.main-pg4 .h3{
+    position: absolute;
+    top: 150px;
+    left: 120px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    color: white;
+}
+
+.main-pg4 .para1{
+    position: absolute;
+    top: 250px;
+    left: 120px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 13px;
+    right: 700px;
+    color: white;
+    line-height: 25px;
+}
+
+.main-pg4 .b1
+{
+    position: relative;
+    height: 40px;
+    width: 180px;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    font-size: 14px;
+    text-transform: uppercase;
+    border-radius: 30px;
+    word-spacing: 9px;
+    letter-spacing: 2px;
+    top: 490px;
+    left: 120px;
+}
+
+.main-pg4 .b1:hover{
+    cursor: pointer;
+    filter: brightness(20%);
+}
+
+/* main page 5 styling */
+
+.main-pg5{
+    position: relative;
+    height: 500px;
+    width: 100%;
+    background-color: rgb(47, 58, 41);
+}
+
+.main-pg5 .head1{
+    position: absolute;
+    color: white;
+    top: 80px;
+    left: 370px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+
+.main-pg5 .para1{
+    position: absolute;
+    top: 200px;
+    left: 350px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 14px;
+    right: 300px;
+    color: white;
+    line-height: 25px;
+    text-align: center;
+}
+
+.main-pg5 .by{
+    position: absolute;
+    top: 325px;
+    left: 350px;
+    right: 300px;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 14px;
+    text-align: center;
+}
+
+/* main page 6 styling */
+
+.main-pg6{
+    position: relative;
+    height: 800px;
+    width: 100%;
+    background-color:rgb(219, 226, 221);
+}
+
+.main-pg6 .head1{
+    position: absolute;
+    color: rgb(72, 83, 66);
+    top: 80px;
+    left: 350px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+
+.main-pg6 .img1,.main-pg6 .img2,.main-pg6 .img3{
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    top: 280px;
+}
+
+.main-pg6 .img1{
+    left: 90px;
+}
+.main-pg6 .img2{
+    left: 500px;
+}
+.main-pg6 .img3{
+    left: 910px;
+}
+
+.main-pg6 .b1
+{
+    position: relative;
+    height: 40px;
+    width: 180px;
+    background-color: transparent;
+    border: 2px solid rgb(72, 83, 66);
+    color: rgb(72, 83, 66);
+    font-size: 14px;
+    text-transform: uppercase;
+    border-radius: 30px;
+    word-spacing: 9px;
+    letter-spacing: 2px;
+    top: 700px;
+    left: 550px;
+}
+
+.main-pg6 .b1:hover{
+    cursor: pointer;
+    filter: brightness(20%);
+}
+
+ /* main page 7 styling */
+.main-pg7{
+    position: relative;
+    height: 480px;
+    width: 100%;
+    background-color: rgb(72, 83, 66);
+}
+
+.main-pg7 .head1{
+    position: absolute;
+    color: white;
+    top: 80px;
+    left: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.main-pg7 .para1{
+    position: absolute;
+    top: 190px;
+    left: 100px;
+    right: 800px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+    color: white;
+    line-height: 25px;
+}
+
+.main-pg7 .lab{
+    position: absolute;
+    top: 190px;
+    right: 450px;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 14px;
+}
+
+.main-pg7 input{
+    position: absolute;
+    height: 40px;
+    width: 500px;
+    background-color:rgb(219, 226, 221);
+    top: 250px;
+    right: 35px;
+}
+
+.main-pg7 .b1
+{
+    position: relative;
+    height: 40px;
+    width: 180px;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    font-size: 14px;
+    text-transform: uppercase;
+    border-radius: 30px;
+    word-spacing: 9px;
+    letter-spacing: 2px;
+    top: 330px;
+    left: 720px;
+}
+
+.main-pg7 .b1:hover{
+    cursor: pointer;
+    background-color: aliceblue;
+    color: #4a5a45;
+}
+
+/* main page 8 styling */
+
+.main-pg8{
+    position: relative;
+    height: 300px;
+    width: 100%;
+    background-color:rgb(219, 226, 221);
+}
+
+.main-pg8 .logo{
+    position: absolute;
+    color: rgb(72, 83, 66);
+    top: 80px;
+    left: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+    text-transform: uppercase;
+}
+
+.main-pg8 ul{
+    position: absolute;
+    list-style: none;
+    color: rgb(72, 83, 66);
+    top: 90px;
+    left: 700px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+}
+
+.main-pg8 li{
+    margin-bottom: 25px;
+}
+
+.main-pg8 li:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.main-pg8 .mail{
+    position: absolute;
+    left: 1000px;
+    top: 120px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 14px;
+    color: rgb(72, 83, 66);
+    
+}
+
+.main-pg8 .mobile{
+    position: absolute;
+    left: 1000px;
+    top: 160px;
+    font-size: 14px;
+    color: rgb(72, 83, 66);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.main-pg8 .insta{
+    position: absolute;
+    height: 23px;
+    width: 23px;
+    top: 210px;
+    left: 1080px;
+}
+.main-pg8 .whatsapp{
+    position: absolute;
+    height: 18px;
+    width: 18px;
+    top: 212px;
+    left: 1040px;
+}
+.main-pg8 .twitter{
+    position: absolute;
+    height: 23.5px;
+    width: 23.5px;
+    top: 210px;
+    left: 1000px;
+}
+
+.main-pg8 .insta:hover,
+.main-pg8 .whatsapp:hover,
+.main-pg8 .twitter:hover{
+    cursor: pointer;
+    filter: brightness(50%);
+    
+}
